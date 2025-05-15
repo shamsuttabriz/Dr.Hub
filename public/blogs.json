@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "What is useState and how does it work in React?",
+      "ans": "useState is a React Hook that allows you to add state to a functional component. It returns an array with two elements: the current state value and a function to update that state. When the state changes, the component re-renders with the new value.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 2,
+      "question": "What is the purpose of useEffect in React?",
+      "ans": "useEffect is a React Hook used to handle side effects in functional components, such as data fetching, setting up subscriptions, or manually changing the DOM. It runs after the render and can be controlled to run on every render, only once, or when specific values change.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 3,
+      "question": "What is a custom hook in React and when should you use one?",
+      "ans": "A custom hook is a reusable JavaScript function that starts with 'use' and can call other hooks. It helps you extract and share logic between components without repeating code. You should use one when multiple components share the same logic.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 4,
+      "question": "Difference between controlled and uncontrolled components? Which one is better?",
+      "ans": "Controlled components are form inputs whose values are controlled by React state, while uncontrolled components store their state in the DOM itself (using refs). Controlled components are generally preferred for more predictable and testable code, though uncontrolled can be simpler for quick forms.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 5,
+      "question": "Tell us something about useFormStatus() (explore and explain)",
+      "ans": "useFormStatus is a hook available in React Server Components (like with Next.js app router) that gives information about a form’s pending status. It's useful for conditionally disabling buttons or showing loading indicators while a form is being submitted.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 6,
+      "question": "What is the virtual DOM in React?",
+      "ans": "The virtual DOM is a lightweight JavaScript representation of the real DOM. React uses it to determine what changes need to be made to the real DOM by comparing the new virtual DOM with the previous one (diffing), and then efficiently updating only the changed parts.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between props and state in React?",
+      "ans": "Props are inputs to a component passed from a parent, and they are read-only. State is managed within the component and can change over time, triggering re-renders. Props allow data to flow down, while state handles local component data.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 8,
+      "question": "What are keys in React and why are they important?",
+      "ans": "Keys are unique identifiers used in lists to help React identify which items have changed, been added, or removed. They improve performance and help React apply updates efficiently. Ideally, keys should be stable and unique (not indexes).",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 9,
+      "question": "What is JSX in React?",
+      "ans": "JSX stands for JavaScript XML. It allows you to write HTML-like syntax directly in JavaScript files, which is then transformed into React.createElement calls by Babel. JSX makes component structures easier to visualize and write.",
+      "addTime": "2025-05-11"
+    },
+    {
+      "id": 10,
+      "question": "What is the role of context API in React?",
+      "ans": "The Context API is a way to pass data through the component tree without having to pass props down manually at every level. It's useful for global data like themes, user info, or language settings that need to be accessible in many components.",
+      "addTime": "2025-05-11"
+    }
+  ]
+  
