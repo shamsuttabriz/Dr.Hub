@@ -37,8 +37,14 @@
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/drhubbd.git
+git clone git@github.com:shamsuttabriz/Dr.Hub.git
+```
+```bash
 cd drhubbd
+```
+```bash
 npm install
+```
+```bash
 npm start
 ```
